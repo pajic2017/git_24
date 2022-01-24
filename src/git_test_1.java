@@ -6,7 +6,6 @@ public class git_test_1 {
 
     /*constructor without field*/
     public git_test_1(){
-
     }
 
     public static final Logger logger = Logger.getLogger(git_test_1.class.getName());
@@ -23,6 +22,6 @@ public class git_test_1 {
         logger.info("This show us Map variable: "+phonebook);
     }
 
-    /*private instance variable*/
+    /*private instance variable, use static because static main method is*/
     static Map<String,Integer> phonebook=new HashMap<String,Integer>();
 }
