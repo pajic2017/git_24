@@ -12,6 +12,7 @@ public class git_test_1 {
 
         phonebook.put("John", 123);
         phonebook.put("Steve", 456);
+        phonebook.put("Marko",987);
 
         logger.info("This show us Map variable: "+phonebook);
         //logger.info("Another way to use logger: {}", phonebook);
